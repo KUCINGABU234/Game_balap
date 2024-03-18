@@ -1,5 +1,7 @@
-from tqdm import tqdm
-import time import os
+from tqdm 
+import tqdm
+import time 
+import os
 import time
 import random
 
