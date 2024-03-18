@@ -1,6 +1,6 @@
 # STATUS
 - VERSION
-  0.2 (BETA)
+  0.3 (BETA)
 - UPDATE |
   Added countdown time
 # INSTRUCTIONS
