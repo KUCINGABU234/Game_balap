@@ -1,11 +1,10 @@
 from tqdm import tqdm
+import time import os
 import time
+import random
 
 for i in tqdm(range(10), desc="Loading", bar_format="{l_bar}{bar} {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}{postfix}]"):
     time.sleep(0.5) 
-import os
-import time
-import random
 
 def clear_screen():
     os.system('clear')
