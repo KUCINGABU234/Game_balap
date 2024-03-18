@@ -8,7 +8,7 @@ def clear_screen():
 
 def countdown():
     for i in tqdm(range(10, 0, -1), desc="Starting", bar_format="{l_bar}{bar} {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}{postfix}]"):
-        time.sleep(2.5)
+        time.sleep(0.8)
     clear_screen()
 
 def display_intro():
