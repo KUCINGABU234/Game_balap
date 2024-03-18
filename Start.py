@@ -18,7 +18,7 @@ def display_intro():
     countdown()  # Menambahkan countdown sebelum memulai permainan
 
 def race():
-    distance = 50
+    distance = 100
     player_position = 1
     computer_position = 1
 
