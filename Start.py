@@ -8,7 +8,7 @@ def clear_screen():
 
 def countdown():
     for i in tqdm(range(3, 0, -1), desc="Starting", bar_format="{l_bar}{bar} {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}{postfix}]"):
-        time.sleep(1)
+        time.sleep(8.2)
     clear_screen()
 
 def display_intro():
@@ -18,7 +18,7 @@ def display_intro():
     countdown()  # Menambahkan countdown sebelum memulai permainan
 
 def race():
-    distance = 100
+    distance = 50
     player_position = 1
     computer_position = 1
 
