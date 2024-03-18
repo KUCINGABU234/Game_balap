@@ -1,4 +1,5 @@
 # STATUS
 - VERSION
   0.2 (BETA)
-# INSTR
+# INSTRUCTIONS
+- Space to go foward
