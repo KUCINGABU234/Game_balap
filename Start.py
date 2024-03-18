@@ -6,14 +6,18 @@ from tqdm import tqdm
 def clear_screen():
     os.system('clear')
 
+def countdown():
+    for i in range(3, 0, -1):
+        clear_screen()
+        print("Starting in", i)
+        time.sleep(1)
+    clear_screen()
+
 def display_intro():
     clear_screen()
     print("Welcome to my simple game")
     input("Press enter to start the game...")
-    
-    # Bar loading akan muncul saat menunggu
-    for _ in tqdm(range(10), desc="Loading", bar_format="{l_bar}{bar} {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}{postfix}]"):
-        time.sleep(0.5) 
+    countdown()  # Menambahkan countdown sebelum memulai permainan
 
 def race():
     distance = 50
