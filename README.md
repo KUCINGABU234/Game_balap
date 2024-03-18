@@ -1,3 +1,3 @@
 # STATUS
 - VERSION
-  0.1 (BETA)
+  0.2 (BETA)
