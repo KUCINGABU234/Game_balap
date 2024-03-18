@@ -1,2 +1,3 @@
 # STATUS
-- UPDATE
+- VERSION
+  0.1 (BETA)
