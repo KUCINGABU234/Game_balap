@@ -26,8 +26,8 @@ def race():
         clear_screen()
         print("Go go go!")
         print("Distance:", "-" * distance)
-        print("Player:", " " * (player_position - 1) + "P")
-        print("Computer:", " " * (computer_position - 1) + "C")
+        print("Player:", " " * (player_position - 1) + "🏎️")
+        print("Computer:", " " * (computer_position - 1) + "🏎️")
 
         time.sleep(0.2)
 
