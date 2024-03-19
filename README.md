@@ -1,7 +1,7 @@
 # STATUS
 - VERSION
-  0.3 (BETA)
+  0.4 (BETA)
 - UPDATE |
-  Added countdown time
+  Added car
 # INSTRUCTIONS
 - Space to go foward
